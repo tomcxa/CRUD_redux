@@ -23,7 +23,7 @@ const Filter = () => {
   }
 
   return (
-    <input name='filter' onChange={handleChange} />
+    <input name='filter' onChange={handleChange} placeholder='search services' />
   )
 }
 
